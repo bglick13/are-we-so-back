@@ -41,7 +41,7 @@ export default async function Home() {
           <div className="text-sm text-muted-foreground mt-8">
             <p>
               <Link
-                href="https://github.com/yourusername/are-we-so-back"
+                href="https://github.com/bglick13/are-we-so-back"
                 className="underline hover:text-primary"
               >
                 View on GitHub
