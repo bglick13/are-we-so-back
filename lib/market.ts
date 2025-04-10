@@ -7,7 +7,7 @@ export async function getMarketStatus() {
       `https://www.alphavantage.co/query?function=GLOBAL_QUOTE&symbol=SPY&apikey=${
         process.env.ALPHA_VANTAGE_API_KEY || "demo"
       }`,
-      { next: { revalidate: 30 * 60 } } // Cache for 30 minutes
+      { next: { revalidate: 60 * 60 } } // Cache for 1 hour
     );
 
     if (!response.ok) {
