@@ -7,8 +7,11 @@ import { ThemeProvider } from "@/components/theme-provider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Are We So Back?",
-  description: "Find out if we are so back based on the stock market",
+  title: "Are We So Back? | Real-time S&P 500 Market Status",
+  description:
+    "Check if we're so back based on the S&P 500 market performance. Get real-time updates on market trends and share with friends.",
+  keywords:
+    "S&P 500, stock market, market status, market trends, share market status",
   openGraph: {
     title: "Are We So Back?",
     description: "Find out if we are so back based on the stock market",
